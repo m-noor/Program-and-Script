@@ -10,13 +10,9 @@ while found_smallest_number == False:
         #print(i)
         if smallest_number % i == 0:
             found_smallest_number = True
-            # i+=1
         else:
-        #    i=2
-            smallest_number+=9699690
-            #if smallest_number == 232792560:
-            print(smallest_number)
+            smallest_number+=9699690            
             found_smallest_number = False
             break # exit the inner for loop and restart all over with new number
 
-print("Smallest number = ", smallest_number) #232792560 for 1-20; 2520 for 1-10; the loop can be made slightly faster by setting smallest_number to 2520
+print("Smallest number: ", smallest_number) #232792560 for 1-20; 2520 for 1-10; the loop can be made slightly faster by setting smallest_number to 2520
