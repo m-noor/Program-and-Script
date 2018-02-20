@@ -17,4 +17,4 @@ For this, there are two similar but slightly different solutions:
 
 Benchmarking with a simple `time.time()` function indicates that the the first solution with `while` loop exclusively is slightly faster: 140 vs. 174. As inspired by http://www.mathblog.dk/project-euler-problem-5/, pre-determining the prime numbers in the integer interval results in a faster performance - 0.0936 to find the smallest number divisible by integers 1-20.
 
-Additionally, the project_Euler_problem_5_forloop.py has been modified to accept user inputs and perform automatic optimizations to arrive at the solution significantly faster.
+Additionally, the [project_Euler_problem_5_forloop_withuserinput.py](project_Euler_problem_5_forloop_withuserinput.py) can accept user inputs and perform automatic optimizations to arrive at the solution significantly faster.
