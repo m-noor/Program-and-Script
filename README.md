@@ -12,7 +12,9 @@ This repository contains the codes for the module exercises.
 
 For this, there are two similar but slightly different solutions:
 
-#### project_Euler_problem_5_whileloop.py - uses only `while` loops
-#### project_Euler_problem_5_forloop.py - uses a mixture of `for` and `while` loops
+#### [project_Euler_problem_5_whileloop.py](project_Euler_problem_5_whileloop.py) - uses only `while` loops
+#### [project_Euler_problem_5_forloop.py](project_Euler_problem_5_forloop.py) - uses a mixture of `for` and `while` loops
 
-Benchmarking with a simple `time.time()` function indicates that the the first solution with `while` loop exclusively is slightly faster: 140 vs. 174.
+Benchmarking with a simple `time.time()` function indicates that the the first solution with `while` loop exclusively is slightly faster: 140 vs. 174. As inspired by http://www.mathblog.dk/project-euler-problem-5/, pre-determining the prime numbers in the integer interval results in a faster performance - 0.0936 to find the smallest number divisible by integers 1-20.
+
+Additionally, the project_Euler_problem_5_forloop.py has been modified to accept user inputs and perform automatic optimizations to arrive at the solution significantly faster.
