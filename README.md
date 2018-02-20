@@ -1,6 +1,6 @@
 # Course: 52167 Programming and Scripting
 
-This repository contains the codes for the module exercises. The README was formatted according to [GitHub Help](https://help.github.com/articles/basic-writing-and-formatting-syntax/)
+This repository contains the codes for the module exercises. The README was formatted according to [GitHub Help](https://help.github.com/articles/basic-writing-and-formatting-syntax/).
 
 ### Exercises 1 and 2: Fibonacci sequence - [Fibonacci_sequence.py](Fibonacci_sequence.py)
 
