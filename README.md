@@ -4,7 +4,13 @@ This repository contains the codes for the module exercises. The README was form
 
 ### Exercises 1 and 2: Fibonacci sequence - [Fibonacci_sequence.py](Fibonacci_sequence.py)
 
+This script returns the nth Fibonacci number as a function of input string Unicode values.
+
 ### Exercise 3: Collatz conjecture exercise - [Collatz_conjecture.py](Collatz_conjecture.py)
+
+From Wikipedia: The Collatz conjecture is a conjecture that concerns a sequence defined as follows: start with any positive integer n. Then each term is obtained from the previous term as follows: if the previous term is even, the next term is one half the previous term. Otherwise, the next term is 3 times the previous term plus 1. The conjecture is that no matter what value of n, the sequence will always reach 1. 
+
+This script takes in an input, performs the calculation as above and return the final value. Input validation has also been built in to avoid user from entering non-integers etc.
 
 ### Exercise 4: Project Euler - Problem 5
 
@@ -20,3 +26,5 @@ Benchmarking with a simple `time.time()` function indicates that the the first s
 Additionally, the [project_Euler_problem_5_forloop_withuserinput.py](project_Euler_problem_5_forloop_withuserinput.py) can accept user inputs and perform automatic optimizations to arrive at the solution significantly faster.
 
 ### Exercise 5: Input and Output - [File_IO.py](FileIO.py)
+
+This script takes as an input a user-selected csv file containing the [https://en.wikipedia.org/wiki/Iris_flower_data_set](Iris data set) and prints out the content.
