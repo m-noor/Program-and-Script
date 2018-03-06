@@ -9,10 +9,10 @@ def factorial(integer):
     result = math.factorial(integer)
     print('The factorial of', integer, 'is:', result)
 
-# for testing the function
-factorial(5)
-factorial(7)
-factorial(10)
+# for testing the function. The expected output is commented.
+factorial(5) # The factorial of 5 is: 120
+factorial(7) # The factorial of 7 is: 5040
+factorial(10) # The factorial of 10 is: 3628800
 
 # request user's input and check it is a positive integer
 while is_integer == False:
