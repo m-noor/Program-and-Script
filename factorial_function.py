@@ -26,5 +26,5 @@ while is_integer == False:
     except ValueError: 
         pass
 
-# run the function to calculate factorial
+# run the function to calculate input factorial
 factorial(integer)
