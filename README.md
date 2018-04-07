@@ -8,9 +8,9 @@ This script returns the nth Fibonacci number as a function of input string Unico
 
 ### Exercise 3: Collatz conjecture exercise - [Collatz_conjecture.py](Collatz_conjecture.py)
 
-From Wikipedia: The Collatz conjecture is a conjecture that concerns a sequence defined as follows: start with any positive integer n. Then each term is obtained from the previous term as follows: if the previous term is even, the next term is one half the previous term. Otherwise, the next term is 3 times the previous term plus 1. The conjecture is that no matter what value of n, the sequence will always reach 1. 
+From Wikipedia: The Collatz conjecture is a conjecture that concerns a sequence defined as follows: start with any positive integer *n*. Then each term is obtained from the previous term as follows: if the previous term is even, the next term is one half the previous term. Otherwise, the next term is 3 times the previous term plus 1. The conjecture is that no matter what value of *n*, the sequence will always reach 1. 
 
-This script takes in an input, performs the calculation as above and return the final value. Input validation has also been built in to avoid user from entering non-integers etc.
+This script takes in an input, performs the calculation as above and return the final value. Input validation has also been built in to avoid user from entering non-integers *etc.*
 
 ### Exercise 4: Project Euler - Problem 5
 
@@ -31,4 +31,6 @@ This script takes as an input a user-selected csv file containing the [Iris data
 
 ### Exercise 6: Functions - [factorial_function.py](factorial_function.py)
 
-This is a simple script to calculate the factorial of an integer using the math.factorial() function.
+This is a simple script to calculate the factorial of an integer using the `math.factorial()` function.
+
+######################### END OF FILE #########################
